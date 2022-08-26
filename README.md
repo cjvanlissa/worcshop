@@ -22,7 +22,7 @@ WORCS is an R package that takes you from data to published paper in a
 single streamlined workflow, making the entire process of your analysis,
 up to the submission of your manuscript, reproducible. The WORCS
 workflow optionally facilitates pre-registration, sharing your code and
-your data (safely\!), and the submission of a pre-print.
+your data (safely!), and the submission of a pre-print.
 
 ## Target audience
 
@@ -47,11 +47,11 @@ project by the end of the workshop.
     (NOTE: Reserve 1 hour to do this)
 2.  Download [Allison Horst’s Penguin
     dataset](https://github.com/allisonhorst/palmerpenguins):
-      - [CSV
+    -   [CSV
         file](https://raw.githubusercontent.com/bvreede/worcshop/master/data/penguins.csv)
-      - [SPSS
+    -   [SPSS
         file](https://raw.githubusercontent.com/bvreede/worcshop/master/data/penguins.sav)
-      - [Excel
+    -   [Excel
         file](https://raw.githubusercontent.com/bvreede/worcshop/master/data/penguins.xlsx)
 
 ## Worcshop slides and documentation
@@ -63,28 +63,34 @@ RStudio](https://cjvanlissa.github.io/worcs/articles/workflow.html)
 
 ### Presentations (by event):
 
-  - [MPIB\_2020
-    (Nov 20)](https://cjvanlissa.github.io/worcshop/MPIB_2020.html)
-  - [overview\_lecture
-    (Nov 20)](https://cjvanlissa.github.io/worcshop/overview_lecture.html)
-  - [eur\_2020
-    (Oct 20)](https://cjvanlissa.github.io/worcshop/eur_2020.html)
-  - [eara2020
-    (Aug 20)](https://cjvanlissa.github.io/worcshop/eara2020.html)
+-   [OSFestival_2022 (Aug
+    22)](https://cjvanlissa.github.io/worcshop/OSFestival_2022.html)
+-   [SRCD_2021 (Aug
+    22)](https://cjvanlissa.github.io/worcshop/SRCD_2021.html)
+-   [overview_lecture (Aug
+    22)](https://cjvanlissa.github.io/worcshop/overview_lecture.html)
+-   [eara2020 (Aug
+    22)](https://cjvanlissa.github.io/worcshop/eara2020.html)
+-   [eur_2020 (Aug
+    22)](https://cjvanlissa.github.io/worcshop/eur_2020.html)
+-   [SRA_2021 (Aug
+    22)](https://cjvanlissa.github.io/worcshop/SRA_2021.html)
+-   [MPIB_2020 (Aug
+    22)](https://cjvanlissa.github.io/worcshop/MPIB_2020.html)
 
 <!--[Introducing worcs](https://bvreede.github.io/worcshop/slides/overview_lecture.html)-->
 
 ## Further reading
 
-  - [Read the preprint](https://psyarxiv.com/k4wde/)
-  - The [worcs GitHub repo](https://github.com/cjvanlissa/worcs)
-  - [Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet)
+-   [Read the preprint](https://psyarxiv.com/k4wde/)
+-   The [worcs GitHub repo](https://github.com/cjvanlissa/worcs)
+-   [Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet)
 
 ## Links submitted during the workshop
 
-  - [TOP guidelines](https://www.cos.io/our-services/top-guidelines)
-  - [Git User Interfaces](https://git-scm.com/downloads/guis) -
+-   [TOP guidelines](https://www.cos.io/our-services/top-guidelines)
+-   [Git User Interfaces](https://git-scm.com/downloads/guis) -
     recommendation by workshop participant:
     [GitKraken](https://www.gitkraken.com/)
-  - [rrtools](https://github.com/benmarwick/rrtools), an attempt to
+-   [rrtools](https://github.com/benmarwick/rrtools), an attempt to
     streamline containerization in R
