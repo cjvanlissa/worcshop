@@ -52,12 +52,15 @@ cat(paste0("* [", print_f, "](",
 
 ### Introduction to WORCS
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ysOxHYUWdFY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Workflow for Open Reproducible Code in Science (WORCS), presented at EARA 2020](http://img.youtube.com/vi/ysOxHYUWdFY/0.jpg)](http://www.youtube.com/watch?v=ysOxHYUWdFY "Workflow for Open Reproducible Code in Science (WORCS), presented at EARA 2020")
+
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/ysOxHYUWdFY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
 ### WORCS tutorial
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uzjpN_yFeUU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/uzjpN_yFeUU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
+[![Tutorial: WORCS, Workflow for Open Reproducible Code in Science](http://img.youtube.com/vi/uzjpN_yFeUU/0.jpg)](http://www.youtube.com/watch?v=uzjpN_yFeUU "Tutorial: WORCS, Workflow for Open Reproducible Code in Science")
 
 ## Further reading
 - [Read the preprint](https://psyarxiv.com/k4wde/)
