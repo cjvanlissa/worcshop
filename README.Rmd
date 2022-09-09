@@ -16,9 +16,6 @@ WORCS is an R package that takes you from data to published paper in a single st
 
 Anyone who would like to get started with an open and reproducible workflow, without dealing with a mountain of new tools and platforms. The workshop uses R, but prior experience is not required. Having the motivation to step out of your comfort zone — and into a new one — is the most important prerequisite.
 
-<!--## Workshop dates
-- tbd-->
-
 ## Desired outcome
 
 Attendees will be able to get started on their own open, reproducible project by the end of the workshop.
@@ -50,6 +47,17 @@ cat(paste0("* [", print_f, "](",
 ```
 
 <!--[Introducing worcs](https://bvreede.github.io/worcshop/slides/overview_lecture.html)-->
+
+## Video lectures
+
+### Introduction to WORCS
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ysOxHYUWdFY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### WORCS tutorial
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uzjpN_yFeUU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ## Further reading
 - [Read the preprint](https://psyarxiv.com/k4wde/)

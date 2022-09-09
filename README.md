@@ -32,9 +32,6 @@ The workshop uses R, but prior experience is not required. Having the
 motivation to step out of your comfort zone — and into a new one — is
 the most important prerequisite.
 
-<!--## Workshop dates
-- tbd-->
-
 ## Desired outcome
 
 Attendees will be able to get started on their own open, reproducible
@@ -79,6 +76,18 @@ RStudio](https://cjvanlissa.github.io/worcs/articles/workflow.html)
     22)](https://cjvanlissa.github.io/worcshop/MPIB_2020.html)
 
 <!--[Introducing worcs](https://bvreede.github.io/worcshop/slides/overview_lecture.html)-->
+
+## Video lectures
+
+### Introduction to WORCS
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ysOxHYUWdFY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+
+### WORCS tutorial
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uzjpN_yFeUU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
 
 ## Further reading
 
