@@ -44,12 +44,12 @@ project by the end of the workshop.
     (NOTE: Reserve 1 hour to do this)
 2.  Download [Allison Horst’s Penguin
     dataset](https://github.com/allisonhorst/palmerpenguins):
-    -   [CSV
-        file](https://raw.githubusercontent.com/bvreede/worcshop/master/data/penguins.csv)
-    -   [SPSS
-        file](https://raw.githubusercontent.com/bvreede/worcshop/master/data/penguins.sav)
-    -   [Excel
-        file](https://raw.githubusercontent.com/bvreede/worcshop/master/data/penguins.xlsx)
+    - [CSV
+      file](https://raw.githubusercontent.com/bvreede/worcshop/master/data/penguins.csv)
+    - [SPSS
+      file](https://raw.githubusercontent.com/bvreede/worcshop/master/data/penguins.sav)
+    - [Excel
+      file](https://raw.githubusercontent.com/bvreede/worcshop/master/data/penguins.xlsx)
 
 ## Worcshop slides and documentation
 
@@ -60,20 +60,22 @@ RStudio](https://cjvanlissa.github.io/worcs/articles/workflow.html)
 
 ### Presentations (by event):
 
--   [OSFestival_2022 (Aug
-    22)](https://cjvanlissa.github.io/worcshop/OSFestival_2022.html)
--   [SRCD_2021 (Aug
-    22)](https://cjvanlissa.github.io/worcshop/SRCD_2021.html)
--   [overview_lecture (Aug
-    22)](https://cjvanlissa.github.io/worcshop/overview_lecture.html)
--   [eara2020 (Aug
-    22)](https://cjvanlissa.github.io/worcshop/eara2020.html)
--   [eur_2020 (Aug
-    22)](https://cjvanlissa.github.io/worcshop/eur_2020.html)
--   [SRA_2021 (Aug
-    22)](https://cjvanlissa.github.io/worcshop/SRA_2021.html)
--   [MPIB_2020 (Aug
-    22)](https://cjvanlissa.github.io/worcshop/MPIB_2020.html)
+- [Code_cafe_2023 (Nov
+  23)](https://cjvanlissa.github.io/worcshop/Code_cafe_2023.html)
+- [overview_lecture (Nov
+  23)](https://cjvanlissa.github.io/worcshop/overview_lecture.html)
+- [eur_2020 (Nov
+  23)](https://cjvanlissa.github.io/worcshop/eur_2020.html)
+- [eara2020 (Nov
+  23)](https://cjvanlissa.github.io/worcshop/eara2020.html)
+- [SRCD_2021 (Nov
+  23)](https://cjvanlissa.github.io/worcshop/SRCD_2021.html)
+- [SRA_2021 (Nov
+  23)](https://cjvanlissa.github.io/worcshop/SRA_2021.html)
+- [OSFestival_2022 (Nov
+  23)](https://cjvanlissa.github.io/worcshop/OSFestival_2022.html)
+- [MPIB_2020 (Nov
+  23)](https://cjvanlissa.github.io/worcshop/MPIB_2020.html)
 
 <!--[Introducing worcs](https://bvreede.github.io/worcshop/slides/overview_lecture.html)-->
 
@@ -96,15 +98,15 @@ Science](http://img.youtube.com/vi/uzjpN_yFeUU/0.jpg)](http://www.youtube.com/wa
 
 ## Further reading
 
--   [Read the preprint](https://psyarxiv.com/k4wde/)
--   The [worcs GitHub repo](https://github.com/cjvanlissa/worcs)
--   [Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet)
+- [Read the preprint](https://psyarxiv.com/k4wde/)
+- The [worcs GitHub repo](https://github.com/cjvanlissa/worcs)
+- [Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet)
 
 ## Links submitted during the workshop
 
--   [TOP guidelines](https://www.cos.io/our-services/top-guidelines)
--   [Git User Interfaces](https://git-scm.com/downloads/guis) -
-    recommendation by workshop participant:
-    [GitKraken](https://www.gitkraken.com/)
--   [rrtools](https://github.com/benmarwick/rrtools), an attempt to
-    streamline containerization in R
+- [TOP guidelines](https://www.cos.io/our-services/top-guidelines)
+- [Git User Interfaces](https://git-scm.com/downloads/guis) -
+  recommendation by workshop participant:
+  [GitKraken](https://www.gitkraken.com/)
+- [rrtools](https://github.com/benmarwick/rrtools), an attempt to
+  streamline containerization in R
