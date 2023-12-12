@@ -60,8 +60,8 @@ RStudio](https://cjvanlissa.github.io/worcs/articles/workflow.html)
 
 ### Presentations (by event):
 
-- [Porto_2023 (Dec
-  23)](https://cjvanlissa.github.io/worcshop/Porto_2023.html)
+- [porto_2023 (Dec
+  23)](https://cjvanlissa.github.io/worcshop/porto_2023.html)
 - [Code_cafe_2023 (Nov
   23)](https://cjvanlissa.github.io/worcshop/Code_cafe_2023.html)
 - [overview_lecture (Nov

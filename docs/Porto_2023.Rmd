@@ -1,9 +1,15 @@
 ---
 title: "WORCS: A Workflow for Open Reproducible Code in Science"
-author: "Caspar J. Van Lissa, Brandmaier, Brinkman, Lamprecht, Peikert, Struiksma, & Vreede (2021),<br>*Data Science*, DOI: [10.3233/DS-210031](https://content.iospress.com/articles/data-science/ds210031)"
-format: revealjs
+author: "Caspar J. Van Lissa, Brandmaier, Brinkman, Lamprecht, Peikert, Struiksma, & Vreede (2021), *Data Science*, DOI: [10.3233/DS-210031](https://content.iospress.com/articles/data-science/ds210031)"
+output:
+  xaringan::moon_reader:
+    css: [default, metropolis, metropolis-fonts, 'custom.css']
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
 ---
-
 
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
@@ -11,7 +17,7 @@ options(htmltools.dir.version = FALSE)
 
 <!-- Here, introduce the general principles of open science and the motivation for worcs -->
 
-## Imagine...
+# Imagine...
 
 You are researching "determinants of loss given default of residential mortgage loans in Portugal" (Like Ramos & Mateus, 2023)
 
@@ -19,8 +25,11 @@ You are researching "determinants of loss given default of residential mortgage 
 * Everybody looks at you to produce risk analyses and scenarios
 * **Are you ready?!**
 
+![](images/porto.jpg)
 
-## In real life
+---
+
+# In real life
 
 * This happened during COVID
 * In absence of vaccine, **behavior** was the only intervention
@@ -29,15 +38,17 @@ You are researching "determinants of loss given default of residential mortgage 
     + We cannot just "scale up"
 
 <font color="red">**Problem:**</font> Workflows not reproducible or shareable
+---
 
-## Solution
+# Solution
 
 * Convened experts on reproducibility to develop WORCS
 * Counterexample: PsyCorona (130 scholars worldwide)
 * Used WORCS to create open reproducible code and data
     + 20+ publications used those code and data
+---
 
-## Central Argument
+# Central Argument
 
 * To be able to re-use, share, verify, and collaborate on work...
 * ...you must first make it **reproducible** and **shareable**
@@ -46,8 +57,9 @@ You are researching "determinants of loss given default of residential mortgage 
     + "as open as possible/as closed as necessary"
 
 **Solution:** Neatly package your projects in a WORCS "reproducible repository" so you can come back to them in some years, share with colleagues, apply to different projects, etc.
+---
 
-## Defining Open Science
+# Defining Open Science
 
 "Open science is just good science" (Jonathan Tennant, 2018)
 
@@ -55,30 +67,27 @@ Formal definitions:
 
 * TOP guidelines (Nosek et al., 2015)
 * FAIR principles (Wilkinson et al., 2016)
+---
 
-## Meeting TOP guidelines...
+# Meeting TOP guidelines...
 
-<font size=6>
+Relevant to openness and reproducibility:
 
-Relevant to openness and reproducibility^[[Nosek _et al._, 2015](https://osf.io/9f6gx/#!)]:
-
-1. Comprehensive **citation** of resources;
+1. **Citation** of literature, data, materials, and methods;
 2. **Sharing** data;
-3. **Sharing** code;
-4. **Sharing** research materials;
-5. **Sharing** protocols and documentation;
-6. **Pre-registration** of hypotheses before data collection;
-7. **Pre-registration** of analysis plan before execution;<br>
-8. <font color="gray">_Replication of published results._</font>
+3. **Sharing** the code required to reproduce analyses;
+4. **Sharing** new research materials;
+5. **Sharing** details of the design and analysis;
+6. **Pre-registration** of studies before data collection;
+7. **Pre-registration** of the analysis plan;
+8. <font color="LightGray">_Replication of published results._</font>
 
-
-</font>
+.footnote[[Nosek _et al._, 2015](https://osf.io/9f6gx/#!)]
+---
 
 ## ...in a FAIR manner
 
-<font size = 6>
-
-* **F**indable^[Wilkinson et al., 2016]
+* **F**indable
     + Through standardized repositories or cross-repository search engines
     + With Digital Object Identifier (DOI)
 * **A**ccessible online for humans and machines
@@ -88,24 +97,27 @@ Relevant to openness and reproducibility^[[Nosek _et al._, 2015](https://osf.io/
 * **R**eusability
     + License data, code, and materials for reuse
 
-</font>
+.footnote[Wilkinson et al., 2016]
+---
 
-## Open science as a paradigm shift {.smaller background-image="https://the-turing-way.netlify.app/_images/reproducibility.jpg" background-size="50%"}
+background-image: url("https://the-turing-way.netlify.app/_images/reproducibility.jpg")
+background-size: 82% 82%
 
-<!-- background-size="contain" -->
+# Open science as a paradigm shift
 
-<font size =4>
-
-#### Open Science creates opportunities to make science more^[Artwork by Scriberia for [The Turing Way](https://the-turing-way.netlify.com/introduction/introduction), CC-BY)]
-
+#### Open Science creates opportunities to make science more
 - reliable, 
 - cumulative,
 - collaborative, 
 - inclusive
 
-</font>
+.footnote-bg[
+(Artwork by Scriberia for [The Turing Way](https://the-turing-way.netlify.com/introduction/introduction), CC-BY)]
 
-## Open science as a challenge
+---
+
+
+# Open science as a challenge
 
 #### Where do you start?
 
@@ -113,22 +125,25 @@ Relevant to openness and reproducibility^[[Nosek _et al._, 2015](https://osf.io/
 
 #### What workflow is right for you?
 
-## Introducing WORCS {.smaller}
+---
+# Introducing WORCS
 
-**W**orkflow for **O**pen **R**eproducible **C**ode in **S**cience
-
+### **W**orkflow for **O**pen **R**eproducible **C**ode in **S**cience
 - Standardized workflow
 - Low threshold, high ceiling
-- Conceptual platform-independent principles: DOI.org/10.3233/DS-210031
+- Conceptual, principled approach to reproducibility: [DOI:10.3233/DS-210031](https://doi.org/10.3233/DS-210031)
 - "One-click" solution for R-users: https://cran.r-project.org/package=worcs
 - Defaults based on best practices (several experts contributed)
-- Compatible with institutional requirements and other workflows
+- Compatible with journal/university requirements and other workflows
 - Pulling down the learning curve!
 
-![](images/learningcurve.svg)
+![learningcurve](images/learningcurve.svg)
 
 
-## The tools
+---
+
+
+# The tools
 
 ### 1. Dynamic document generation
 
@@ -143,12 +158,12 @@ Relevant to openness and reproducibility^[[Nosek _et al._, 2015](https://osf.io/
 
 * Aaron Peikert
 
-<!-- --- -->
-<!-- background-image: url(https://rstudio.com/wp-content/uploads/2014/04/rmarkdown.png) -->
-<!-- background-size: 20% 38% -->
-<!-- background-position: right top -->
+---
+background-image: url(https://rstudio.com/wp-content/uploads/2014/04/rmarkdown.png)
+background-size: 20% 38%
+background-position: right top
 
-## 1. Dynamic document generation {background-image="https://bookdown.org/yihui/rmarkdown/images/hex-rmarkdown.png" background-position="right top" background-size="20%"}
+# 1. Dynamic document generation
 
 - Paper consists of **text and code**
 - Results, figures, and tables automatically generated
@@ -162,52 +177,47 @@ Relevant to openness and reproducibility^[[Nosek _et al._, 2015](https://osf.io/
 - Reproducible by default: Just render the document
 
 
-## R Markdown example
+---
+# R Markdown example
 
-![](images/rmarkdown_example.png)
+![rmarkdown](images/rmarkdown_example.png)
 
-## R Markdown example rendered
+---
+# R Markdown example rendered
 
 ![data-analysis](images/markdown_analysis.png)
 ![citation](images/markdown_citation.png)
 
-## 2. Version control (using Git)
+---
+# 2. Version control (using Git)
 
 ### Why version control?
 
-:::: {.columns}
-
-::: {.column width="45%"}
-
-<font size=5>
+.pull-left[
 
 - NO MORE manuscript_final_final_SERIOUSLYFINAL.doc
+
 - "Track Changes" on steroids: record entire project history
+
 - If something breaks, you can figure out what happened.
+
 - Facilitates collaboration and experimentation!
 
-</font>
+]
 
-:::
-
-::: {.column width="10%"}
-:::
-
-::: {.column width="45%"}
+.pull-right[
 ![final](http://www.phdcomics.com/comics/archive/phd101212s.gif)
-:::
+]
+---
 
-::::
+# 2. Version control (using Git)
 
-## 2. Version control (using Git)
+Tracks changes to (text-based) files line by line:
 
-<font size = 5>
-
-```{r, out.width="40%", echo = FALSE}
+```{r, out.width="45%", echo = FALSE}
 knitr::include_graphics("images/play-changes.svg")
 ```
 
-* Tracks changes to (text-based) files line by line
 * _add_ files to your repository
 * _commit_ changes to these files
 * _push_ all commits to remote repository (private backup or public online supplement)
@@ -217,46 +227,30 @@ knitr::include_graphics("images/git-staging-area.svg")
 ```
 
 One command in `worcs`: `git_update("Describe your changes")`
+.footnote-bg[
+Image credit: [Software Carpentries](https://swcarpentry.github.io/git-novice/)
+]
 
-</font>
-
-
-
-
-## GitHub {background-image="https://github.githubassets.com/images/modules/logos_page/Octocat.png" background-size="35%" background-position="right top"}
-
-:::: {.columns}
-
-::: {.column width="45%"}
-
-<font size=5>
-
+---
+background-image: url(https://github.githubassets.com/images/modules/logos_page/Octocat.png)
+background-size: 35% 40%
+background-position: right top
+# Introducing GitHub
+.pull-left-larger[
 - `worcs` repository is backed up in a remote repository like [GitHub](https://github.com/);
+
 - GitHub is a **"cloud backup"** with **"social networking"** features
     + Clone other people's repository to reproduce or build upon them
     + Open Issues with questions or comments about the work
     + Send suggested changes as a "Pull request"
+
 - GitHub can be used to 'tag' specific states of the repository, e.g. a preregistration.
+]
 
-</font>
+![prereg](images/preregistration.png)
 
-:::
-
-::: {.column width="10%"}
-:::
-
-::: {.column width="45%"}
-
-:::
-
-::::
-
-```{r}
-#| out.height="70%"
-knitr::include_graphics("images/preregistration.png")
-```
-
-## Important because: {.smaller}
+---
+# Important because:
 
 - Complete backup of entire project history
     * Go back to previous version if you want
@@ -272,16 +266,21 @@ knitr::include_graphics("images/preregistration.png")
     * Get DOI for project and/or specific resources
     * Store project snapshot
 
-
-## 3. Dependency management
+---
+# 3. Dependency management
 
 - To make project reproducible, people must have access to your (exact) **software dependencies**
     * For R-users, these are `R-packages`
+
 - Difficult trade-off:
 
 ![](images/dependencytradeoff.svg)
 
-## Dependency management in WORCS {background-image="https://rstudio.github.io/renv/reference/figures/logo.svg" background-size="20%" background-position="right top"}
+---
+background-image: url(https://rstudio.github.io/renv/reference/figures/logo.svg)
+background-size: 20% 38%
+background-position: right top
+# Dependency management in WORCS
 
 - Maintains text-based list of packages, their version,  
   and origin (e.g., “CRAN”, “Bioconductor”, “GitHub”)
@@ -296,10 +295,8 @@ knitr::include_graphics("images/preregistration.png")
 - Nice to your "future self": Your code will work in the future
 
 <!-- With the background knowledge in mind, let's have another look at the workflow -->
-
-## Unique features in `worcs`
-
-<font size=5.5>
+---
+# Unique features in `worcs`
 
 * RStudio template
 * Easy GitHub integration
@@ -314,11 +311,9 @@ knitr::include_graphics("images/preregistration.png")
 * WORCS checklist and badge
 * Automatic installation check: `check_worcs_installation()`
 
-</font>
+---
 
-## Sharing data in WORCS
-
-<font size=5>
+# Sharing data in WORCS
 
 - Reproducibility requires open data
 - Some data may be (privacy) sensitive
@@ -336,10 +331,10 @@ knitr::include_graphics("images/preregistration.png")
 - Synthetic data created using `synthetic()`
 - Synthetic data made public (default: `.csv`)
 - Unique ID of original data made public (so people can audit your work)
+---
 
-</font>
 
-## Sharing data in WORCS
+# Sharing data in WORCS
 
 #### Loading data `load_data()`:
 
@@ -349,20 +344,46 @@ knitr::include_graphics("images/preregistration.png")
 - People can create a working script using synthetic data, and send it to you to run on original data
 - Load function recorded in `.worcs` file; default `read.csv()`
 
-## Reproducing WORCS Project
+---
+
+# Reproducing WORCS Project
 
 1. Create entry point (e.g., `manuscript.Rmd`)
 2. Define recipe (e.g., `rmarkdown::render("manuscript.Rmd")`)
 3. Snapshot endpoints recipe (e.g., `manuscript.pdf`, `table1.csv`)
 
+`worcs::reproduce()` generates the endpoints from the entry point via the recipe
+
 `worcs::check_endpoints()` verifies that the results are identical
 
-`worcs::reproduce()` regenerates endpoints from entry point via the recipe, and checks them
+---
 
-
-
-## Continuous Integration
+# Continuous Integration
 
 Run `worcs::reproduce()` on GitHub via GitHub Actions
 
 ![](action_reproduce.png)
+
+---
+
+# Let me show you!
+
+---
+
+# For non-R-users
+
+* WORCS-paper addresses software-independent **principles** of open/reproducibility
+* `worcs` is a good starting point for new R-users
+    + Setup Tutorial to help install everything
+    + Tricky issues (like project management and using Git) are ~automatic when using the WORCS template
+    + Automatic check in case you get stuck: `check_worcs_installation()`
+* Learn good habits from the start; don't reinvent the wheel
+
+
+---
+
+
+class: center, inverse, middle
+# Find out more:
+
+<div style="background-color:#ffffff; text-align:center; vertical-align: middle; padding:20px 47px;"> <a href="https://cjvanlissa.github.io/worcshop/">cjvanlissa.github.io/worcshop</a><br><a href="https://cjvanlissa.github.io/worcs/">cjvanlissa.github.io/worcs</a> </div>
