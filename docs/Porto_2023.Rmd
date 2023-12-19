@@ -149,6 +149,7 @@ background-size: 82% 82%
 
 * Fredrik Aust
 * Luiza Andrade
+* Nicola Rennie
 
 ### 2. Version control
 
