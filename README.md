@@ -60,25 +60,26 @@ RStudio](https://cjvanlissa.github.io/worcs/articles/workflow.html)
 
 ### Presentations (by event):
 
-- [meehl (Oct 24)](https://cjvanlissa.github.io/worcshop/meehl.html)
-- [Porto_2023 (Dec
+- [ic2s2 (jul 25)](https://cjvanlissa.github.io/worcshop/ic2s2.html)
+- [meehl (okt 24)](https://cjvanlissa.github.io/worcshop/meehl.html)
+- [Porto_2023 (dec
   23)](https://cjvanlissa.github.io/worcshop/Porto_2023.html)
-- [Code_cafe_2023 (Nov
+- [Code_cafe_2023 (nov
   23)](https://cjvanlissa.github.io/worcshop/Code_cafe_2023.html)
-- [overview_lecture (Nov
-  23)](https://cjvanlissa.github.io/worcshop/overview_lecture.html)
-- [eur_2020 (Nov
-  23)](https://cjvanlissa.github.io/worcshop/eur_2020.html)
-- [eara2020 (Nov
+- [eara2020 (nov
   23)](https://cjvanlissa.github.io/worcshop/eara2020.html)
-- [SRCD_2021 (Nov
-  23)](https://cjvanlissa.github.io/worcshop/SRCD_2021.html)
-- [SRA_2021 (Nov
-  23)](https://cjvanlissa.github.io/worcshop/SRA_2021.html)
-- [OSFestival_2022 (Nov
-  23)](https://cjvanlissa.github.io/worcshop/OSFestival_2022.html)
-- [MPIB_2020 (Nov
+- [eur_2020 (nov
+  23)](https://cjvanlissa.github.io/worcshop/eur_2020.html)
+- [MPIB_2020 (nov
   23)](https://cjvanlissa.github.io/worcshop/MPIB_2020.html)
+- [OSFestival_2022 (nov
+  23)](https://cjvanlissa.github.io/worcshop/OSFestival_2022.html)
+- [overview_lecture (nov
+  23)](https://cjvanlissa.github.io/worcshop/overview_lecture.html)
+- [SRA_2021 (nov
+  23)](https://cjvanlissa.github.io/worcshop/SRA_2021.html)
+- [SRCD_2021 (nov
+  23)](https://cjvanlissa.github.io/worcshop/SRCD_2021.html)
 
 <!--[Introducing worcs](https://bvreede.github.io/worcshop/slides/overview_lecture.html)-->
 
