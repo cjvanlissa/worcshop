@@ -39,17 +39,25 @@ project by the end of the workshop.
 
 ## Preparation
 
-1.  Work through the [Setup vignette: Setting up your computer for
+1.  Setup your laptop by following the [Setup vignette: Setting up your
+    computer for
     WORCS](https://cjvanlissa.github.io/worcs/articles/setup.html)
     (NOTE: Reserve 1 hour to do this)
-2.  Download [Allison Horst’s Penguin
-    dataset](https://github.com/allisonhorst/palmerpenguins):
-    - [CSV
-      file](https://raw.githubusercontent.com/bvreede/worcshop/master/data/penguins.csv)
-    - [SPSS
-      file](https://raw.githubusercontent.com/bvreede/worcshop/master/data/penguins.sav)
-    - [Excel
-      file](https://raw.githubusercontent.com/bvreede/worcshop/master/data/penguins.xlsx)
+2.  Bring your own dataset (optionally: analysis code) that you want to
+    make reproducible
+    - If you don’t have your own data, you can use some demo data.
+    - For example, [these
+      data](https://github.com/cjvanlissa/demo_metarep/blob/1366250e87b9b3efd164e1f6d2a1d5e6158c0602/df.csv)
+      on the effect of different methods of drying the hands on hang
+      time in rock climbing.
+    - Alternatively, the classic [Allison Horst’s Penguin
+      dataset](https://github.com/allisonhorst/palmerpenguins):
+      - [CSV
+        file](https://raw.githubusercontent.com/bvreede/worcshop/master/data/penguins.csv)
+      - [SPSS
+        file](https://raw.githubusercontent.com/bvreede/worcshop/master/data/penguins.sav)
+      - [Excel
+        file](https://raw.githubusercontent.com/bvreede/worcshop/master/data/penguins.xlsx)
 
 ## Worcshop slides and documentation
 
@@ -60,30 +68,31 @@ RStudio](https://cjvanlissa.github.io/worcs/articles/workflow.html)
 
 ### Presentations (by event):
 
-- [ic2s2 (jul 25)](https://cjvanlissa.github.io/worcshop/ic2s2.html)
-- [meehl (okt 24)](https://cjvanlissa.github.io/worcshop/meehl.html)
-- [Porto_2023 (dec
+- [turku (Mar 26)](https://cjvanlissa.github.io/worcshop/turku.html)
+- [ic2s2 (Jul 25)](https://cjvanlissa.github.io/worcshop/ic2s2.html)
+- [meehl (Oct 24)](https://cjvanlissa.github.io/worcshop/meehl.html)
+- [Porto_2023 (Dec
   23)](https://cjvanlissa.github.io/worcshop/Porto_2023.html)
-- [Code_cafe_2023 (nov
+- [Code_cafe_2023 (Nov
   23)](https://cjvanlissa.github.io/worcshop/Code_cafe_2023.html)
-- [eara2020 (nov
+- [eara2020 (Nov
   23)](https://cjvanlissa.github.io/worcshop/eara2020.html)
-- [eur_2020 (nov
+- [eur_2020 (Nov
   23)](https://cjvanlissa.github.io/worcshop/eur_2020.html)
-- [MPIB_2020 (nov
+- [MPIB_2020 (Nov
   23)](https://cjvanlissa.github.io/worcshop/MPIB_2020.html)
-- [OSFestival_2022 (nov
+- [OSFestival_2022 (Nov
   23)](https://cjvanlissa.github.io/worcshop/OSFestival_2022.html)
-- [overview_lecture (nov
+- [overview_lecture (Nov
   23)](https://cjvanlissa.github.io/worcshop/overview_lecture.html)
-- [SRA_2021 (nov
+- [SRA_2021 (Nov
   23)](https://cjvanlissa.github.io/worcshop/SRA_2021.html)
-- [SRCD_2021 (nov
+- [SRCD_2021 (Nov
   23)](https://cjvanlissa.github.io/worcshop/SRCD_2021.html)
 
 <!--[Introducing worcs](https://bvreede.github.io/worcshop/slides/overview_lecture.html)-->
 
-## Video lectures
+## Video Tutorials
 
 ### Introduction to WORCS
 
@@ -93,12 +102,17 @@ EARA
 
 <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/ysOxHYUWdFY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
-### WORCS tutorial
+### Creating a new WORCS Project
 
 <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/uzjpN_yFeUU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
 [![Tutorial: WORCS, Workflow for Open Reproducible Code in
 Science](http://img.youtube.com/vi/uzjpN_yFeUU/0.jpg)](http://www.youtube.com/watch?v=uzjpN_yFeUU "Tutorial: WORCS, Workflow for Open Reproducible Code in Science")
+
+### Make Existing R Code Reproducible with ‘worcs’ and ‘targets’
+
+[![Make Existing R Code Reproducible with ‘worcs’ and
+‘targets’](http://img.youtube.com/vi/3mgRFMr5APU/0.jpg)](http://www.youtube.com/watch?v=3mgRFMr5APU "Make Existing R Code Reproducible with 'worcs' and 'targets'")
 
 ## Further reading
 

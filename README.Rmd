@@ -22,11 +22,14 @@ Attendees will be able to get started on their own open, reproducible project by
 
 ## Preparation {#preparation}
 
-1. Work through the [Setup vignette: Setting up your computer for WORCS](https://cjvanlissa.github.io/worcs/articles/setup.html) (NOTE: Reserve 1 hour to do this)
-1. Download [Allison Horst's Penguin dataset](https://github.com/allisonhorst/palmerpenguins):
-    * [CSV file](https://raw.githubusercontent.com/bvreede/worcshop/master/data/penguins.csv)
-    * [SPSS file](https://raw.githubusercontent.com/bvreede/worcshop/master/data/penguins.sav)
-    * [Excel file](https://raw.githubusercontent.com/bvreede/worcshop/master/data/penguins.xlsx)
+1. Setup your laptop by following the [Setup vignette: Setting up your computer for WORCS](https://cjvanlissa.github.io/worcs/articles/setup.html) (NOTE: Reserve 1 hour to do this)
+1. Bring your own dataset (optionally: analysis code) that you want to make reproducible
+    * If you don't have your own data, you can use some demo data.
+    * For example, [these data](https://github.com/cjvanlissa/demo_metarep/blob/1366250e87b9b3efd164e1f6d2a1d5e6158c0602/df.csv) on the effect of different methods of drying the hands on hang time in rock climbing.
+    * Alternatively, the classic [Allison Horst's Penguin dataset](https://github.com/allisonhorst/palmerpenguins):
+        * [CSV file](https://raw.githubusercontent.com/bvreede/worcshop/master/data/penguins.csv)
+        * [SPSS file](https://raw.githubusercontent.com/bvreede/worcshop/master/data/penguins.sav)
+        * [Excel file](https://raw.githubusercontent.com/bvreede/worcshop/master/data/penguins.xlsx)
 
 ## Worcshop slides and documentation
 
@@ -48,7 +51,7 @@ cat(paste0("* [", print_f, "](",
 
 <!--[Introducing worcs](https://bvreede.github.io/worcshop/slides/overview_lecture.html)-->
 
-## Video lectures
+## Video Tutorials
 
 ### Introduction to WORCS
 
@@ -56,11 +59,16 @@ cat(paste0("* [", print_f, "](",
 
 <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/ysOxHYUWdFY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
-### WORCS tutorial
+### Creating a new WORCS Project
 
 <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/uzjpN_yFeUU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
 [![Tutorial: WORCS, Workflow for Open Reproducible Code in Science](http://img.youtube.com/vi/uzjpN_yFeUU/0.jpg)](http://www.youtube.com/watch?v=uzjpN_yFeUU "Tutorial: WORCS, Workflow for Open Reproducible Code in Science")
+
+### Make Existing R Code Reproducible with 'worcs' and 'targets'
+
+[![Make Existing R Code Reproducible with 'worcs' and 'targets'](http://img.youtube.com/vi/3mgRFMr5APU/0.jpg)](http://www.youtube.com/watch?v=3mgRFMr5APU "Make Existing R Code Reproducible with 'worcs' and 'targets'")
+
 
 ## Further reading
 - [Read the preprint](https://psyarxiv.com/k4wde/)
